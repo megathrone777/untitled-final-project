@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 1"
+  },
+  {
+    "id": "2",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 2"
+  },
+  {
+    "id": "3",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 3"
+  },
+  {
+    "id": "4",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 4"
+  },
+  {
+    "id": "5",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 5"
+  },
+  {
+    "id": "6",
+    "imageURL": "https://placehold.co/300x400",
+    "name": "Product 6"
+  }
+]

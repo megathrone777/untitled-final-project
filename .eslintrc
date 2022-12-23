@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "ignorePatterns": ["*.js"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "func-style": ["error", "expression"],
+    "newline-after-var": "error",
+    "newline-before-return": "error",
+    "no-inline-comments": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": "error",
+    "prefer-const": "error",
+    "semi": "error"
+  }
+}
