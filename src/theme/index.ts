@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { Theme, css, keyframes } from "@emotion/react";
 
-import { GlobalStyle } from "./global-style";
+import { globalStyles } from "./global-styles";
 import { colors, devices, fonts } from "./variables";
 
 const theme: Theme = {
@@ -15,5 +15,5 @@ const theme: Theme = {
   },
 };
 
-export { GlobalStyle, css, keyframes, styled, theme };
+export { globalStyles, css, keyframes, styled, theme };
 export type { Theme };

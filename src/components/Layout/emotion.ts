@@ -1,7 +1,7 @@
 import { styled } from "~/theme";
 
 export const StyledContent = styled.main(({ theme: { colors, devices } }) => ({
-  backgroundColor: colors.red,
+  backgroundColor: "green",
 
   [devices["desktop"]]: {
     backgroundColor: colors.red,

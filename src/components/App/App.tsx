@@ -1,11 +1,11 @@
-import { ThemeProvider } from "@emotion/react";
+import { Global, ThemeProvider } from "@emotion/react";
 
 import { Layout } from "~/components";
-import { GlobalStyle, theme } from "~/theme";
+import { globalStyles, theme } from "~/theme";
 
 const App: React.FC = () => (
   <ThemeProvider {...{ theme }}>
-    <GlobalStyle />
+    <Global styles={globalStyles} />
     <Layout />
   </ThemeProvider>
 );

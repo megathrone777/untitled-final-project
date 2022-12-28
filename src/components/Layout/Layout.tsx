@@ -1,9 +1,12 @@
+import { Example } from "~/components";
 import { StyledContent } from "./emotion";
 
 const Layout: React.FC = () => (
   <>
     Header
-    <StyledContent>Blocks</StyledContent>
+    <StyledContent>
+      <Example />
+    </StyledContent>
     Footer
   </>
 );
