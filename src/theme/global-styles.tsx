@@ -1,6 +1,6 @@
 import { Interpolation, Theme } from "@emotion/react";
 
-const globalStyles: Interpolation<Theme> = ({ fonts }): Interpolation<Theme> => ({
+const globalStyles: Interpolation<Theme> = ({ fonts }) => ({
   [`
     div, button, span, applet, object, iframe, 
     h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
