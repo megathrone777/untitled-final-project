@@ -3,10 +3,9 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "6.5.0"
+    "react-dom": "18.2.0"
   },
-  "description": "Blank project",
+  "description": "Untitled project",
   "devDependencies": {
     "@types/eslint": "8.4.10",
     "@types/node": "18.11.11",
@@ -25,7 +24,7 @@
     "typescript": "4.9.4"
   },
   "license": "UNLICENSED",
-  "name": "blank",
+  "name": "untitled",
   "scripts": {
     "build": "ts-node ./config/production.ts",
     "develop": "ts-node ./config/development.ts"

@@ -1,6 +1,5 @@
 export interface TColors {
-  orange: string;
-  tomato: string;
+  red: string;
 }
 
 export type TDevices = {
@@ -10,5 +9,6 @@ export type TDevices = {
 };
 
 export interface TFonts {
+  initialFontSize: number;
   normal: number;
 }

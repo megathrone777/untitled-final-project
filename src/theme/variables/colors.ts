@@ -1,8 +1,7 @@
 import { TColors } from "./types";
 
 const colors: TColors = {
-  orange: "#ff9b1b",
-  tomato: "tomato",
+  red: "#ff4656",
 };
 
 export { colors };
