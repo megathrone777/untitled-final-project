@@ -1,4 +1,4 @@
-import { StyledContent } from "./styled";
+import { StyledContent } from "./emotion";
 
 const Layout: React.FC = () => (
   <>

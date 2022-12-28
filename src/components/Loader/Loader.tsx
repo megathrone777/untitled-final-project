@@ -1,4 +1,4 @@
-import { StyledSpinner } from "./styled";
+import { StyledSpinner } from "./emotion";
 
 const Loader: React.FC = () => <StyledSpinner />;
 
