@@ -8,7 +8,7 @@ const theme: Theme = {
   colors,
   devices,
   fonts,
-  rem: (px: number): string => {
+  rem: (px) => {
     const baseFontSize = 16;
 
     return `${px / baseFontSize}rem`;

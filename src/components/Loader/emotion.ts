@@ -10,7 +10,7 @@ const spin = keyframes`
   }
 `;
 
-export const StyledSpinner = styled.div(({ theme: { colors, rem } }) => ({
+export const StyledSpinner = styled("div")(({ theme: { colors, rem } }) => ({
   animation: `${spin} 0.5s linear infinite`,
   border: `${rem(10)} solid ${colors.red}`,
   borderRadius: "50%",
