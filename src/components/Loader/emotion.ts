@@ -1,14 +1,14 @@
 import { keyframes, styled } from "~/theme";
 
-const spin = keyframes`
-  from {
-    transform: translateY(-50%) rotate(0deg);
-  }
+const spin = keyframes({
+  from: {
+    transform: "translateY(-50%) rotate(0deg)",
+  },
 
-  to {
-    transform: translateY(-50%) rotate(360deg);
-  }
-`;
+  to: {
+    transform: "translateY(-50%) rotate(360deg)",
+  },
+});
 
 export const StyledSpinner = styled("div")(({ theme: { colors, rem } }) => ({
   animation: `${spin} 0.5s linear infinite`,
